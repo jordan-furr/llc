@@ -1,31 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
-    --blue: #2B3398;  
-    --brown:#B48567;
+    --gray: #536C7E;
 }
 
-html {
+html,
+body {
     height: 100vh;
     width: 100vw;
-    font-size: 16px;
-    line-height: 1.25;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-.test {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    min-width: 100vw;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter';
+    scroll-behavior: smooth !important;
 }
 
-h6,h5,h4,h3,h2,h1 {
-    margin: 0;
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -73,26 +79,16 @@ p {
 
 .flex-start {
     justify-content: start;
+    gap: 1rem;
 }
 
 .flex-end {
     justify-content: end;
-}
-
-.center {
-    justify-content: center;
+    gap: 0.5rem;
 }
 
 .align-center {
     align-items: center;
-}
-
-.border-box {
-    box-sizing: border-box;
-}
-
-.block {
-    display: block;
 }
 
 .margin-0 {
@@ -108,6 +104,10 @@ p {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .under-hov {
     text-decoration: none;
 }
@@ -121,10 +121,10 @@ p {
 }
 
 .w-100 {
-    width: 100vw;
+    width: 100%;
 }
 
-.w-95{
+.w-95 {
     width: 95%;
 }
 
@@ -141,7 +141,7 @@ p {
 }
 
 .w-75 {
-    width: 75vw;
+    width: 75%;
 }
 
 .w-70 {
@@ -172,6 +172,10 @@ p {
     width: 40%;
 }
 
+.w-35 {
+    width: 35%;
+}
+
 .w-33 {
     width: 33.333%;
 }
@@ -181,31 +185,43 @@ p {
 }
 
 .w-25 {
-    width: 25vw;
+    width: 25%;
 }
 
 .w-20 {
     width: 20%;
 }
 
+.w-15 {
+    width: 15%;
+}
+
 .w-10 {
     width: 10%;
 }
 
-.w-auto {
-    width: auto;
+.w-5 {
+    width: 5%;
 }
 
-.h-100 {
+.h-100vh {
     height: 100vh;
 }
 
+.h-100 {
+    height: 100%;
+}
+
 .h-90 {
+    height: 90%;
+}
+
+.h-90vh {
     height: 90vh;
 }
 
-.h-80 {
-    height: 80vh;
+.h-85vh {
+    height: 85vh;
 }
 
 .h-75 {
@@ -218,10 +234,6 @@ p {
 
 .h-10 {
     height: 10%;
-}
-
-.h-auto {
-    height: auto;
 }
 
 .left-0 {
@@ -238,10 +250,6 @@ p {
 
 .right-0 {
     right: 0;
-}
-
-.right-10 {
-    right: 10;
 }
 
 .right-50 {
@@ -276,10 +284,6 @@ p {
     padding: 2rem;
 }
 
-.pa6 {
-    padding: 3rem;
-}
-
 .pl0 {
     padding-left: 0;
 }
@@ -312,7 +316,7 @@ p {
     padding-right: 0.25rem;
 }
 
-.pr2{
+.pr2 {
     padding-right: 0.5rem;
 }
 
@@ -320,12 +324,20 @@ p {
     padding-right: 1rem;
 }
 
-.pt1{
+.pt1 {
     padding-top: 0.25rem;
 }
 
-.pt2{
+.pt2 {
     padding-top: 0.5rem;
+}
+
+.pt3 {
+    padding-top: 1rem;
+}
+
+.pt4 {
+    padding-top: 1.5rem;
 }
 
 .ph1 {
@@ -383,6 +395,11 @@ p {
     padding-top: 2rem;
 }
 
+.pv6 {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
 .pb1 {
     padding-bottom: 0.25rem;
 }
@@ -404,11 +421,11 @@ p {
 }
 
 .mt1 {
-    margin-top: 0.25rem;
+    margin-top: .25rem;
 }
 
 .mt2 {
-    margin-top: 0.5rem;
+    margin-top: .5rem;
 }
 
 .mt3 {
@@ -424,35 +441,23 @@ p {
 }
 
 .mt6 {
-    margin-top: 2.5rem;
-}
-
-.mt7 {
     margin-top: 3rem;
 }
 
-.mt8 {
+.mt7 {
     margin-top: 4rem;
 }
 
-.mt9 {
+.mt8 {
     margin-top: 5rem;
 }
 
-.mt10 {
+.mt9 {
     margin-top: 6rem;
 }
 
-.mt11 {
+.mt10 {
     margin-top: 7rem;
-}
-
-.mt12 {
-    margin-top: 8rem;
-}
-
-.mt14 {
-    margin-top: 10rem;
 }
 
 .ma2 {
@@ -460,7 +465,7 @@ p {
 }
 
 .ma3 {
-    margin: 1rem;
+    margin: 0.75rem;
 }
 
 .mv1 {
@@ -468,17 +473,22 @@ p {
     margin-bottom: 0.25rem;
 }
 
-.mv2{
+.mv2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-.mv3{
+.mv3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.mv4{
+.mv4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mv5 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -496,16 +506,6 @@ p {
 .mh4 {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}
-
-.mh5 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.mh6 {
-    margin-left: 3rem;
-    margin-right: 3rem;
 }
 
 .ml2 {
@@ -544,24 +544,32 @@ p {
     margin-right: 0;
 }
 
-.mr1{
+.mr1 {
     margin-right: 0.25rem;
 }
 
-.mr2{
+.mr2 {
     margin-right: 0.5rem;
 }
 
-.mr3{
+.mr3 {
     margin-right: 1rem;
 }
 
-.mr4{
+.mr4 {
     margin-right: 1.5rem;
 }
 
-.mr5{
+.mr5 {
     margin-right: 2rem;
+}
+
+.mr6 {
+    margin-right: 3rem;
+}
+
+.ml6 {
+    margin-left: 3rem;
 }
 
 .mb0 {
@@ -592,8 +600,40 @@ p {
     margin-bottom: 3rem;
 }
 
+.mb7 {
+    margin-bottom: 4rem;
+}
+
+.mb8 {
+    margin-bottom: 5rem;
+}
+
+.mb9 {
+    margin-bottom: 6rem;
+}
+
+.mb10 {
+    margin-bottom: 7rem;
+}
+
+.mb11 {
+    margin-bottom: 8rem;
+}
+
+.mb12 {
+    margin-bottom: 9rem;
+}
+
+.mb13 {
+    margin-bottom: 10rem;
+}
+
 .bg-white {
     background-color: white;
+}
+
+.bg-grey {
+    background-color: grey;
 }
 
 .overflow-y {
@@ -616,12 +656,8 @@ p {
     overflow: auto;
 }
 
-.spacer {
-    height: 100px;
-}
-
-.s-spacer {
-    height: 50px;
+.borderbox {
+    box-sizing: border-box;
 }
 
 
@@ -631,49 +667,47 @@ p {
 /* PROJECT SPECIFIC */
 
 
-html, body {
-    background-color: var(--brown);
-}
-
-p {
-    color: white;
-}
 
 #logo {
-    color: var(--blue);
-    font-family: 'League Spartan';
-    font-size: 56px;
+    color: var(--gray);
+    font-size: 28px;
     font-weight: 700;
-    animation: gradientText 10s infinite;
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    margin-top: 28px;
 }
 
-#info {
+.info-section {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+.featured {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.subtitle {
+    color: var(--gray);
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 31px;
+}
+
+.site-list {
+    position: relative;
+    display: inline-block;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 4px;
 }
 
-#info-section {
-    width: 20%;
+.site-list p{
+    text-decoration: underline;
 }
 
-.work-item{
-    margin-bottom: 0rem;
-}
-
-@keyframes gradientText {
-    0% {
-        color: var(--blue); /* Blue */
-    }
-    25% {
-        color: #3744AC; /* Deep Sky Blue */
-    }
-    50% {
-        color: #197DFF; /* Light Sky Blue */
-    }
-    75% {
-        color: #3744AC; /* Deep Sky Blue */
-    }
-    100% {
-        color: var(--blue)
-    }
-}

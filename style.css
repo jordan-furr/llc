@@ -10,9 +10,9 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    line-height: 19px;
-    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth !important;
 }
 
@@ -666,37 +666,68 @@ h6 {
 
 /* PROJECT SPECIFIC */
 
+a:hover {
+    cursor: pointer;
+}
 
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+*:hover {
+    cursor: default;
+}
 
 #logo {
     color: var(--gray);
     font-size: 28px;
+    line-height: 28px;
     font-weight: 700;
     position: relative;
     display: inline-block;
     padding-left: 20px;
     margin-bottom: 35px;
     margin-top: 28px;
+    font-family: 'Inter';
 }
 
-.info-section {
+.info {
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 70px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.email-label {
+    text-decoration: underline;
+}
+
+.email-label:hover {
+    cursor: pointer;
 }
 
 .featured {
     position: relative;
     display: inline-block;
     padding-left: 20px;
+    margin-bottom: 50px;
 }
 
 .subtitle {
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-family: 'Inter';
     color: var(--gray);
-    font-weight: 700;
-    font-size: 21px;
-    margin-bottom: 31px;
+}
+
+.service-list {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .site-list {
@@ -708,6 +739,34 @@ h6 {
 }
 
 .site-list p{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+
+@media (min-width: 1000px) {
+
+    .web-row {
+        flex-direction: row;
+    }
+
+    .info-section {
+        width: 33%;
+    }
+
+    .featured {
+        margin-top: 28px;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+    }
+
+    .info-section {
+        width: 33%;
+    }
+
+    .info {
+        width: 75%;
+    }
+
+
+}

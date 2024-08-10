@@ -2,6 +2,9 @@
 
 :root {
     --gray: #536C7E;
+    --red: #ff3d1f;
+    --green: #a0f16e;
+    --brat: #8ACE00;
 }
 
 html,
@@ -633,7 +636,11 @@ h6 {
 }
 
 .bg-grey {
-    background-color: grey;
+    background-color: var(--gray);
+}
+
+.bg-red {
+    background-color: var(--red);
 }
 
 .overflow-y {
@@ -668,6 +675,7 @@ h6 {
 
 a:hover {
     cursor: pointer;
+    color: var(--brat);
 }
 
 a {
@@ -680,16 +688,20 @@ a {
 }
 
 #logo {
-    color: var(--gray);
-    font-size: 28px;
-    line-height: 28px;
+    color: var(--brat);
+    font-size: 36px;
+    line-height: 40px;
     font-weight: 700;
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 18px;
     margin-top: 28px;
     font-family: 'Inter';
+}
+
+#logo:hover {
+    color: var(--red);
 }
 
 .info {
@@ -697,7 +709,7 @@ a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .email-label {
@@ -706,9 +718,10 @@ a {
 
 .email-label:hover {
     cursor: pointer;
+    color: var(--brat);
 }
 
-.featured {
+.info-section {
     position: relative;
     display: inline-block;
     padding-left: 20px;
@@ -716,10 +729,18 @@ a {
 }
 
 .subtitle {
-    font-weight: 600;
-    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 12px;
     font-family: 'Inter';
-    color: var(--gray);
+    color: var(--red);
+}
+
+.influence {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Inter';
+    margin-bottom: 4px;
 }
 
 .service-list {
@@ -727,7 +748,6 @@ a {
     display: inline-block;
     display: flex;
     flex-direction: column;
-    gap: 4px;
 }
 
 .site-list {
@@ -735,11 +755,22 @@ a {
     display: inline-block;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
 }
 
 .site-list p{
     text-decoration: none;
+}
+
+.info-col {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.influencer {
+    margin-bottom: 50px;
 }
 
 
@@ -749,24 +780,17 @@ a {
         flex-direction: row;
     }
 
-    .info-section {
-        width: 33%;
+    .logo-section {
+        width: 33.33333%;
     }
 
-    .featured {
+    .info-col {
         margin-top: 28px;
-        align-items: center;
-        justify-content: center;
-        width: 33%;
-    }
-
-    .info-section {
-        width: 33%;
+        width: 33.33333%;
     }
 
     .info {
         width: 75%;
     }
-
 
 }

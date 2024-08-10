@@ -689,13 +689,13 @@ a {
 
 #logo {
     color: var(--brat);
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 26px;
     font-weight: 700;
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 28px;
     font-family: 'Inter';
     box-sizing: border-box;
@@ -756,7 +756,7 @@ a {
     display: inline-block;
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
 }
 
 .site-list p{

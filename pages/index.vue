@@ -54,7 +54,7 @@
                             style?</em></p>
                     <br>
                     <p>"When you see a racehorse being led out. I think the've got something, hmmm, that no one else has. A
-                        racehorse has a little extra pizazz."</p>
+                        racehorse has a little extra pizzazz."</p>
                     <!---
                     <br>
                     <p class="influence">Frequencies</p>

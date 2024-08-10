@@ -5,8 +5,8 @@
                 <p id="logo">bad taste</p>
             </div>
             <div class="info borderbox">
-                <p>web development for a variety of fields. bad taste by <a href="https://jordanfurr.com/"
-                        target="_">Jordan Furr</a>. based in Brooklyn, New York.
+                <p>web development for a variety of fields. bad taste agency by <a href="https://jordanfurr.com/" target="_">Jordan
+                        Furr</a>. based in Brooklyn, New York.
                 </p>
                 <br>
                 <span @click="copyEmail" style="cursor: pointer;">
@@ -45,13 +45,34 @@
         <div class="info-col">
             <div class="info-section">
                 <p class="subtitle">INFLUENCE</p>
-                <div>
+                <div class="influencer">
                     <p class="influence">Diana Vreeland</p>
-                    <p>"We all need a splash of bad taste—it’s hearty, it’s healthy, it’s physical. I think we could use more of it. No taste is what I’m against."</p>
+                    <p>"We all need a splash of bad taste—it’s hearty, it’s healthy, it’s physical. I think we could use
+                        more of it. No taste is what I’m against."</p>
+                    <br>
+                    <p><em>[Interviewer]: Is there someone who personifies your idea of a great sense of
+                            style?</em></p>
+                    <br>
+                    <p>"When you see a racehorse being led out. I think the've got something, hmmm, that no one else has. A
+                        racehorse has a little extra pizazz."</p>
+                    <!---
                     <br>
                     <p class="influence">Frequencies</p>
+                    <p>Invention</p>
+                    <p>Humanity</p>
+                    <p>Freshness</p>
+                    <p>Discernment</p>
                     <p>Beauty</p>
+                    --->
                 </div>
+                <!---
+                <div class="influencer">
+                    <p class="influence">Diana Vreeland</p>
+                    <p>"We all need a splash of bad taste—it’s hearty, it’s healthy, it’s physical. I think we could use
+                        more of it. No taste is what I’m against."</p>
+                    
+                </div>
+                --->
             </div>
         </div>
 

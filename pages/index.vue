@@ -5,14 +5,16 @@
                 <p id="logo">bad taste</p>
             </div>
             <div class="info borderbox">
-                <p>web development for a variety of fields. bad taste agency by <a href="https://jordanfurr.com/" target="_">Jordan
-                        Furr</a>. based in Brooklyn, New York.
+                <p>web development for a variety of fields. bad taste by <a href="https://jordanfurr.com/" target="_">Jordan
+                        Furr</a>. agency based in Brooklyn, New York.
                 </p>
                 <br>
-                <span @click="copyEmail" style="cursor: pointer;">
-                    <p class="email-label">jordan@jordanfurr.com</p>
-                </span>
-                <span v-if="copied" class="copied">copied!</span>
+                <div class="flex">
+                    <span @click="emailCopy" style="cursor: pointer;">
+                        <p class="email-label">jordan@jordanfurr.com</p>
+                    </span>
+                    <span v-if="copied" class="copied">copied!</span>
+                </div>
                 <a href="" target="_">Instagram</a>
             </div>
         </div>
@@ -83,18 +85,23 @@
 
 <script>
 export default {
+    data() {
+        return {
+            copied: false
+        }
+    },
     methods: {
-        copyEmail() {
+        emailCopy() {
             const email = 'jordan@jordanfurr.com';
             navigator.clipboard.writeText(email)
                 .then(() => {
                     this.copied = true;
                     setTimeout(() => {
                         this.copied = false;
-                    }, 1500);
+                    }, 1000);
                 })
                 .catch(error => {
-                    console.error('Failed to copy:', error);
+                    console.error('Could not copy:', error);
                 });
         }
     }

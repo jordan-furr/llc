@@ -689,15 +689,16 @@ a {
 
 #logo {
     color: var(--brat);
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 26px;
     font-weight: 700;
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 18px;
-    margin-top: 28px;
+    margin-bottom: 20px;
+    padding-top: 28px;
     font-family: 'Inter';
+    box-sizing: border-box;
 }
 
 #logo:hover {
@@ -709,7 +710,7 @@ a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .email-label {
@@ -771,6 +772,11 @@ a {
 
 .influencer {
     margin-bottom: 50px;
+}
+
+.copied {
+    margin-left: 16px;
+    color: var(--brat);
 }
 
 

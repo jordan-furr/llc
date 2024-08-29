@@ -5,8 +5,8 @@
                 <p id="logo">bad taste</p>
             </div>
             <div class="info borderbox">
-                <p>web development for a variety of fields. bad taste by <a href="https://jordanfurr.com/" target="_">Jordan
-                        Furr</a>. agency based in Brooklyn, New York.
+                <p>web development & design agency by <a href="https://jordanfurr.com/" target="_">Jordan
+                        Furr</a>. based in Brooklyn, New York.
                 </p>
                 <br>
                 <div class="flex">

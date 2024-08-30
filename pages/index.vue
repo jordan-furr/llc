@@ -14,7 +14,7 @@
         </div>
         <div class="info-col">
             <div class="info-section">
-                <p class="subtitle">WORK</p>
+                <p class="subtitle">PROJECTS</p>
                 <div class="site-list">
                     <a href="https://spintheupwheel.netlify.app/" target="_">UP Tool Library</a>
                     <a href="https://earnestproject.com/" target="_">Earnest Project</a>

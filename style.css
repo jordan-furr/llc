@@ -706,7 +706,7 @@ a {
     display: inline-block;
     padding-left: 20px;
     margin-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 36px;
     font-family: 'Inter';
     box-sizing: border-box;
 }
@@ -720,7 +720,7 @@ a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 64px;
 }
 
 .email-label {

@@ -8,12 +8,7 @@
                 <p>Web development & brand design agency.</p>
                 <p>Based in Brooklyn, New York.</p>
                 <br>
-                <div class="flex">
-                    <span @click="emailCopy" style="cursor: pointer;">
-                        <p class="email-label">Email</p>
-                    </span>
-                    <span v-if="copied" class="copied">copied!</span>
-                </div>
+                <p><a href="mailto:jordan@jordanfurr.com">Email</a></p>
                 <p><a href="https://www.instagram.com/badtaste.dev/" target="_">Instagram</a></p>
             </div>
         </div>

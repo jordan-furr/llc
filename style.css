@@ -2,10 +2,10 @@
 
 :root {
     --gray: #536C7E;
-    --red: #f72419;
+    --red: #e30000;
     --redred: #ee2929;
-    --green: #a0f16e;
-    --brat: #8ACE00;
+    --green: #99ff80;
+    --brat: #a0f16e;
     --lightgray: #99b7d2;
 }
 
@@ -15,8 +15,8 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 1.2;
     font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth !important;
 }
@@ -676,7 +676,7 @@ h6 {
 /* PROJECT SPECIFIC */
 
 body {
-    background-color: var(--redred);
+    background-color: var(--red);
 }
 
 a:hover {
@@ -749,7 +749,7 @@ a {
 
 .influence {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Inter';
     margin-bottom: 4px;
 }

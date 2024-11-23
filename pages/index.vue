@@ -5,8 +5,7 @@
                 <p id="logo">bad taste</p>
             </div>
             <div class="info borderbox">
-                <p>Web development & brand design agency.</p>
-                <p>Based in Brooklyn, New York.</p>
+                <p>bad taste is the web development & design practice of <a href="https://jordanfurr.com/" target="_">Jordan Furr</a>. Based in Brooklyn, NY, bad taste specializes in crafting custom websites.</p>
                 <br>
                 <p><a href="mailto:jordan@jordanfurr.com">Email</a></p>
                 <p><a href="https://www.instagram.com/badtaste.dev/" target="_">Instagram</a></p>
@@ -14,12 +13,12 @@
         </div>
         <div class="info-col">
             <div class="info-section">
-                <p class="subtitle">PROJECTS</p>
+                <p class="subtitle">CLIENTS</p>
                 <div class="site-list">
                     <a href="https://spintheupwheel.netlify.app/" target="_">UP Tool Library</a>
                     <a href="https://earnestproject.com/" target="_">Earnest Project</a>
-                    <a href="https://www.theupsideofuncertainty.com/" target="_">The Upside of Uncertainty</a>
                     <a href="https://jordanfurr.com/" target="_">Jordan Furr</a>
+                    <a href="https://www.theupsideofuncertainty.com/" target="_">The Upside of Uncertainty</a>
                     <a href="https://harmonpsychotherapy.com/" target="_">Harmon Psychotherapy & Consulting</a>
                     <a href="https://centerforexpandingcompassion.org/" target="_">Center for Expanding Compassion</a>
                     <a href="https://madewithharmony.com/" target="_">Made with Harmony</a>
@@ -34,6 +33,7 @@
                     <p>Wordpress</p>
                     <p>Shopify</p>
                     <p>Figma</p>
+                    <p>Squarespace</p>
                 </div>
             </div>
         </div>
